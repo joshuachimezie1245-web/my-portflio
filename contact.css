@@ -256,18 +256,23 @@ main {
 }
 button{
     display: flex;
+    align-items: center;
+    gap: 0.6rem;
     width: 100%;
     border-radius: 40px;
     background: linear-gradient(to right, rgb(18, 18, 241)0%,rgb(138, 169, 236)20%,rgb(2, 194, 2)150%);
     color: white;
     justify-content: center;
-    gap: 0,6rem;
-    font-weight: 600;
-    font-size: 1rem;
-    overflow: none;
+    padding: 2%;
     border: none;
     margin-top: 10px;
 }
+button p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
 button img{
     width: 30px;
+    /* margin-top: 15px; */
 }
